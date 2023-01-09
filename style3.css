@@ -1,0 +1,40 @@
+.p-box{
+    width:800px;
+    height:500px;
+    border: 1px solid #333;
+    margin-top:30px;
+    margin-left: 80px;
+    position:relative;
+    background-image: url('bgimg.jpg');
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.p-box h1{
+    position:absolute;
+    left:200px;
+    top:60px;
+}
+.p-box h2{
+    position:absolute;
+    bottom:60px;
+    right:200px;
+}
+.button{
+    position:fixed;
+    top:400px;
+}
+.my-lists li:first-child{
+    background: yellow;
+}
+.my-lists li:last-child{
+    background: grey;
+}
+.my-lists li:nth-child(5){
+    background: plum
+}
+
+.my-lists li:nth-child(even){
+    background: greenyellow;
+}
